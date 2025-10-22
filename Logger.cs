@@ -1,6 +1,6 @@
 namespace SimpleLogger
 {
-    // Logger
+    // ロガーです。
     public static class Logger
     {
         private static readonly string _logFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "log.txt");
