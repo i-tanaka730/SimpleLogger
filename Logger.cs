@@ -1,6 +1,8 @@
 namespace SimpleLogger
 {
-    // ロガーです。
+    /// <summary>
+    /// ロガーです。
+    /// </summary>
     public static class Logger
     {
         // ログファイルのパスです。
