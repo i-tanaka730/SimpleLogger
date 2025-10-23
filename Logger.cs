@@ -3,6 +3,7 @@ namespace SimpleLogger
     // ロガーです。
     public static class Logger
     {
+        // ログファイルのパスです。
         private static readonly string _logFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "log.txt");
 
         // ログを出力します。
