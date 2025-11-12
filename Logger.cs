@@ -1,7 +1,7 @@
 namespace SimpleLogger
 {
     /// <summary>
-    /// Simpleなロガーです。
+    /// シンプルなロガーです。
     /// </summary>
     public static class Logger
     {
