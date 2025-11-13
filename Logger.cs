@@ -12,7 +12,7 @@ namespace SimpleLogger
         public static void Log(string message)
         {
             var logEntry = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {message}";
-            File.AppendAllText(_logFilePath, logEntry + Environment.NewLine);
+            File.AppendAllText(_logFilePath);
         }
     }
 }
