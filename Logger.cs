@@ -11,6 +11,7 @@ namespace SimpleLogger
         // 指定したメッセージのログを出力します。
         public static void Log(string message)
         {
+            // 日時を取得
             var logEntry = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {message}";
             File.AppendAllText(_logFilePath + Environment.NewLine);
         }
